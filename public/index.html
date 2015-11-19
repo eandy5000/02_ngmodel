@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="ngDesigners">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</head>
+<body ng-controller="MainController as main" class="container">
+    <h4>Greeting: {{main.hello}}</h4>
+    <input type="text" class="form-control" ng-model="main.hello">
+    <h4>Description: {{main.item.description}}</h4>
+    <input type="text" class="form-control" ng-model="main.item.description">
+    <p>{{main.hello}} {{main.item.name}} {{main.item.description}}</p>
+</body>
+</html>

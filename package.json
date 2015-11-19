@@ -1,0 +1,22 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "ng model example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eandy5000/02_ngmodel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eandy5000/02_ngmodel/issues"
+  },
+  "homepage": "https://github.com/eandy5000/02_ngmodel#readme",
+  "dependencies": {
+    "angular": "^1.4.7"
+  }
+}
